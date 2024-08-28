@@ -1,4 +1,37 @@
 ---
+layout: default
+title: Swati Joshi
+---
+<style>
+    .content-wrapper {
+        display: flex;
+        align-items: center; /* Aligns the image and text vertically. */
+    }
+
+    .left-image {
+        max-width: 200px; /* Adjust the width of the image as needed. */
+        margin-right: 20px; /* Space between the image and text. */
+        height: auto;
+    }
+
+    .text-content {
+        flex: 1; /* Allows the text to take up the remaining space. */
+    }
+
+    @media (max-width: 768px) {
+        .content-wrapper {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .left-image {
+            margin-right: 0;
+            margin-bottom: 20px;
+            max-width: 100%;
+        }
+    }
+</style>
+
 <div class="blurb">
     <div class="content-wrapper">
         <img src="IMG_7731.JPG" alt="Swati Joshi" class="left-image">
@@ -9,3 +42,4 @@
         </div>
     </div>
 </div><!-- /.blurb -->
+
